@@ -1,0 +1,56 @@
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    margin-left: -4px;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav > li > a {
+    color: white;
+}
+
+#nav li a {
+    line-height: 46px;
+    padding: 0 24px;
+    text-decoration: none; /* Tắt gạch chân chữ mặc định */
+    display: block; /* Do thẻ a mặc định display: inline, mà inline không thể xác định height và width nên phải dùng inline-block nếu không thì sẽ không chuyển xám cả block mà chỉ chuyển phần chữ */
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 16px;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a { /* nếu đặt :hover vào thẻ a sẽ phát sinh lỗi mất chuyển background-color ở #nav khi di chuột vào .subnav */
+    color:black;
+    background-color: gray;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+

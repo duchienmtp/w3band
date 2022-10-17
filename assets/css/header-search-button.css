@@ -1,0 +1,39 @@
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header .search-button,
+#header .mobile-menu-btn {
+    float: right;
+}
+
+#header .ti-search,
+#header .mobile-menu-btn {
+    line-height: 46px;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+} 
+
+#header .search-button:hover {
+    background-color: #f44366;
+    cursor: pointer;
+}
+
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+    color: black;
+}

@@ -1,0 +1,28 @@
+#footer {
+    padding: 64px 16px;
+    text-align: center;   
+}
+
+#footer .socials-list {
+    font-size: 24px;
+}
+
+#footer > .socials-list > a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+#footer .socials-list a:hover {
+    opacity: 0.4;
+}
+
+#footer .copyrights {
+    margin: 15px 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+}
+
+#footer .copyrights a {
+    color: rgba(0, 0, 0, 0.6);
+}

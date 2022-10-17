@@ -1,0 +1,49 @@
+#content .content-section {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-top: 25px;
+}
+
+#content .section-subheading {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 25px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+#content .about-content {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4; /* 1,4 dành cho TA, 1.6 dành cho TV */
+    height: 500;
+}
+
+#content .section-heading, 
+#content .section-subheading {
+    text-align: center;
+}
+
+#content .member-img {
+    width: 80%;
+}
+
+#content .members-list {
+    margin-top: 32px;
+    text-align: center;
+}
+
+#content .member-name {
+    text-align: center !important;
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+
